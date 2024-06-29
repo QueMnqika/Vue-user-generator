@@ -14,6 +14,13 @@ const app = Vue.createApp({
             const { results } = await res.json()
 
             console.log(results)
+
+            let bckgrndCol = document.querySelector('#app')
+            if (results[0].gender == 'male') {
+                bckgrndCol.style.backgroundColor = 'steelblue'
+            } else {
+                bckgrndCol.style.backgroundColor = 'pink'
+            }
         
             this.picture = results[0].picture.large
             this.firstName = results[0].name.first
