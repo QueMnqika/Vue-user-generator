@@ -11,8 +11,8 @@
         <h2>People Generator</h2>
         <img :class="gender" v-bind:src="picture" :alt="`${firstName} ${lastName}`">
         <h1>{{firstName}} {{lastName}}</h1>
-        <h3>Email: {{email}}</h3>
-        <h4>Gender: {{gender}}</h4>
+        <h4>Email: {{email}}</h4>
+        <h3>Gender: {{gender}}</h3>
         <button :class="gender" v-on:click="getUsers()">Click to generate a Person</button>
         <br/>
         <div>
