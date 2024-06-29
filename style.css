@@ -46,5 +46,9 @@ button{
 }
 
 button:hover{
-    box-shadow: 0 0 5px #030303;
+    box-shadow: 0 0 9px #030303;
+}
+
+h5{
+  text-align: center;  
 }
