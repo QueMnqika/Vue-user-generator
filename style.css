@@ -21,6 +21,7 @@ body{
 img{
     border-radius: 50%;
     border: 5px solid #030303;
+    box-shadow: 0 0 8px #000;
 }
 
 .male{
@@ -41,6 +42,7 @@ button{
     font-size: 18px;
     border: none;
     box-shadow: 0 0 5px #030303;
+    border-radius: 40px;
 }
 
 button:hover{
